@@ -10,6 +10,7 @@ import libraryRouter from "./routes/library.routes.js";
 import libraryItemRouter from "./routes/libraryItem.routes.js";
 import reviewRouter from "./routes/review.routes.js";
 import tmdbRouter from "./routes/tmdb.routes.js";
+import recommendationRouter from "./routes/recommendation.routes.js";
 
 const app = express();
 
@@ -36,6 +37,7 @@ app.use("/api/v1/libraries", libraryRouter);
 app.use("/api/v1/libraries/:libraryId/items", libraryItemRouter);
 app.use("/api/v1/reviews", reviewRouter);
 app.use("/api/v1/tmdb", tmdbRouter);
+app.use("/api/v1/recommendations", recommendationRouter);
 
 // 404 handler for unmatched routes
 app.use((req, res) => {

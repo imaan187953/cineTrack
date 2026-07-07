@@ -51,6 +51,20 @@ A secure backend built with **Node.js, Express.js, MongoDB, and JWT Authenticati
 
 ---
 
+## 🤖 AI Recommendation
+
+This project integrates the **Google Gemini AI API** to provide intelligent and personalized recommendations based on user input. The AI feature enhances the application's functionality by generating dynamic responses and recommendations through natural language processing.
+
+**AI Features:**
+
+- Google Gemini AI API Integration
+- AI-powered recommendations
+- Dynamic response generation
+- REST API integration with Gemini
+- Secure API key management using environment variables
+
+---
+
 
 ## 📖 What I Learned
 
