@@ -51,35 +51,6 @@ A secure backend built with **Node.js, Express.js, MongoDB, and JWT Authenticati
 
 ---
 
-## ⚙️ Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/your-username/authentication-backend.git
-```
-
-Navigate to the project
-
-```bash
-cd authentication-backend
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Create a `.env` file and configure your environment variables.
-
-Start the server
-
-```bash
-npm run dev
-```
-
----
 
 ## 📖 What I Learned
 
@@ -92,8 +63,3 @@ npm run dev
 - Testing APIs with Postman
 - Using environment variables for configuration
 
----
-
-## 📜 License
-
-This project is created for learning and educational purposes.
